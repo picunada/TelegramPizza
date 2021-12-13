@@ -6,8 +6,7 @@ choice = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text="Большую", callback_data="order:big"),
-            InlineKeyboardButton(text="Маленькую", callback_data="order:small"),
-            InlineKeyboardButton(text="Стандартную", callback_data="order:standart")
+            InlineKeyboardButton(text="Маленькую", callback_data="order:small")
         ],
         [
             InlineKeyboardButton(text="Отмена", callback_data="cancel")
